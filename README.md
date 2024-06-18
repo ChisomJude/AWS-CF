@@ -26,7 +26,7 @@ def main():
 
 Hyperlink [Reference Documentation](https://github.com/SCALagos/hacktoberfest)
 
-Image: ![Image from Google](https://1drv.ms/i/s!AptVCh_B0SmphZ1_dDYojBv6AQC-kQ?e=Y5PYbi)
+Image: ![Image from Google](https://photos.onedrive.com/share/A929D1C11F0A559B!85759?cid=A929D1C11F0A559B&resId=A929D1C11F0A559B!85759&authkey=!AHQ2KIwb-gEAvpE&ithint=photo&e=Y5PYbi)
 
 
 
