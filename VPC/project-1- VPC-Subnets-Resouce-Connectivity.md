@@ -77,10 +77,17 @@
 8. Click **Launch Instance**.
 
 ### Step 6: Configure the Database Server
+<p>Connection from outside the VPC network to this server won't be possible because there is no NAT gateway or instance, 
+the best open is to create a VPN connection or better still SSH into the web server that has public access and is also on the same VPC network 
+and copy keypair to the server and connect to the dbserver</p>
 1. SSH into the `DatabaseServer` instance:
    ```bash
    ssh -i "YourKeyPair.pem" ec2-user@<PrivateIP of DatabaseServer>
    ```
+
+> Once you can connect to the Server, the Connectivity  Test is completed
+> The step below can only completed when the DB server is given internet access via NAT. Complete this on Project 2 and visit this Phase
+
 2. Install MySQL (or your preferred database):
    ```bash
    sudo yum update -y
